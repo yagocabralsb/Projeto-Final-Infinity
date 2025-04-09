@@ -37,25 +37,6 @@ Este é um projeto full stack desenvolvido com **Django**, **HTML** e **CSS** co
 
 ---
 
-## 🗂️ Organização do Projeto
-
-\`\`\`bash
-.
-├── manage.py
-├── projeto/
-│   ├── settings.py
-│   ├── urls.py
-│   └── ...
-├── app/
-│   ├── models.py
-│   ├── views.py
-│   ├── templates/
-│   └── static/
-└── README.md
-\`\`\`
-
----
-
 ## 📦 Como executar o projeto localmente
 
 1. Clone o repositório:
