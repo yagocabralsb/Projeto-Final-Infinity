@@ -64,12 +64,6 @@ python manage.py runserver
 
 ---
 
-## 👤 Autor
-
-Desenvolvido por **[Seu Nome Aqui]**  
-🔗 [Seu LinkedIn] • [Seu Portfólio]
-
----
 
 ## 📌 Observações
 
