@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Acesso ao Sistema{% endblock %}
+
+{% block content %}
+    <h2 class="text-3xl font-semibold text-yellow-500 mb-4">Bem-vindo ao Sistema de Gerenciamento de Segurança</h2>
+
+    {% if user.is_authenticated %}
+        <p class="text-lg text-gray-400 mb-2">Você está logado como <span class="font-semibold">{{ user.username }}</span>.</p>
+        <p class="text-lg text-gray-400">Acesse as funcionalidades usando o menu acima.</p>
+    {% else %}
+        <p class="text-lg text-gray-400">
+            Por favor, <a href="{% url 'login' %}" class="text-yellow-500 hover:text-yellow-400 underline">faça login</a> para acessar o sistema.
+        </p>
+    {% endif %}
+{% endblock %}
